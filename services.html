@@ -1,53 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
     <title>Services</title>
-</head>
-<body>
-    <div>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo">Capstone</a>
         <nav>
-            <h1>Services</h1>
-            <ul class="nav-links">
+          <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
-        </ul>
+          </ul>
         </nav>
-    </div>
+      </div>
+    </header>
 
     <section class="container">
-        <div class="header">
-            <h1>Our Specialized Services</h1>
-            <p>We provide high-quality solutions tailored to your specific needs. Explore our core areas of expertise below.</p>
+      <section class="header">
+        <h1>Our Specialized Services</h1>
+        <p>
+          We provide high-quality solutions tailored to your specific needs.
+          Explore our core areas of expertise below.
+        </p>
+      </section>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="icon">🚀</span>
+          <h3>Strategy & Growth</h3>
+          <p>
+            We help you identify new market opportunities and create a roadmap
+            for sustainable long-term success.
+          </p>
+          <a href="#" class="btn">Learn More</a>
         </div>
 
-        <div class="services-grid">
-            <div class="service-card">
-                <span class="icon">🚀</span>
-                <h3>Strategy & Growth</h3>
-                <p>We help you identify new market opportunities and create a roadmap for sustainable long-term success.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-
-            <div class="service-card">
-                <span class="icon">💻</span>
-                <h3>Web Development</h3>
-                <p>Custom-built, responsive websites designed to convert visitors into customers using the latest tech stacks.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
-
-            <div class="service-card">
-                <span class="icon">📊</span>
-                <h3>Data Analytics</h3>
-                <p>Turn your raw data into actionable insights with our comprehensive reporting and analysis tools.</p>
-                <a href="#" class="btn">Learn More</a>
-            </div>
+        <div class="service-card">
+          <span class="icon">💻</span>
+          <h3>Web Development</h3>
+          <p>
+            Custom-built, responsive websites designed to convert visitors into
+            customers using the latest tech stacks.
+          </p>
+          <a href="#" class="btn">Learn More</a>
         </div>
+
+        <div class="service-card">
+          <span class="icon">📊</span>
+          <h3>Data Analytics</h3>
+          <p>
+            Turn your raw data into actionable insights with our comprehensive
+            reporting and analysis tools.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
     </section>
 
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>
